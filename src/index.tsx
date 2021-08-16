@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import Scene from './ui/scene';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/*App code goes here*/}
+    <Scene />
   </React.StrictMode>,
   document.getElementById('root'),
 );

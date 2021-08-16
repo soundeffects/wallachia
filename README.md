@@ -1,25 +1,14 @@
-# New Project
+# Wallachia
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+Antanasia is a vampire: medieval biotech has repurposed her reproductive system so that any human DNA she consumes rejuvinates her own cells, and that is how she has been living for a century. Only now, after inheriting an old estate in Wallachia, will she rise to power. You get the chance to tell her story.
 
-## Available Scripts
+## Gameplay
+The people you meet and persuade will be the most valuable resources to you. Antanasia has little combat prowess: she has no superhuman abilities at the beginning of the game, and their is always risk of fatal injury. While she is clever and wise owing to her years, most of her life has been spent as a commoner and she does not have much formal education.
 
-### npm start
+Thus you will need to hire, persuade, seduce, or enslave an entourage to support you: be it bodyguards, advisors or administrators. Branching dialogue will be one of the core elements of gameplay, and will be the main way of interacting with the manpower you have access to, and maintaining moral and loyalty.
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+In order to gain this manpower, there will be a few minor resources to manage, including money, capital, trade, production, and reputation.
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+If you explore, you will be able to find remnants of the biotech that turned you into a vampire in the first place. These can bestow superhuman powers to you or your followers, so use them wisely.
 
-### npm run build
-
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" to your `snowpack.config.mjs` config file.
-
-### npm test
-
-Launches the application test runner.
-Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.
+Threats to you and your estate include rival factions, assassins, natural disasters, and health complications. Using your resources, you can combat these threats and rise to power: once you reach a certain reputation you will win the game.
