@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
+
 import antanasia from '../antanasia.webp';
 
 
 export default class Profile extends Component {
   render() {
-    const styling = {
-      height: '15em',
-      width: '14em',
-      borderRadius: "1em",
-      position: "absolute",
-      right: '5em',
-      top: '50vh',
-      marginTop: '-7.5em'
-    };
+    const Profile = styled.img`
+      height: 14em;
+      width: 13em;
+      border-radius: 1em;
+      position: absolute;
+      top: 20vh;
+      right: 5em;
+      bottom: 0;
+      margin: auto;
+    `;
 
-    return <img style={styling} src={antanasia} />;
+    return <Profile src={antanasia} />;
   }
 }
