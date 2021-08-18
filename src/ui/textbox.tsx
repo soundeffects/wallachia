@@ -24,7 +24,7 @@ function disappearAnimation() {
       return "opacity: 0;";
   }
 }
-const MessageBox = styled.section`
+const Wrapper = styled.section`
   position: absolute;
   top: 20vh;
   bottom: 0;
@@ -77,7 +77,7 @@ export default function Textbox() {
 
   return <Transition in={animate} timeout={1000}>
     { (state: string) =>
-      <MessageBox state={state}>
+      <Wrapper state={state}>
         <Message>{ getCurrentMessage() }</Message>
         { 
           getCurrentChoices().map((choice, index) => 
@@ -89,7 +89,7 @@ export default function Textbox() {
             </Choice>
           )
         }
-      </MessageBox>
+      </Wrapper>
     }
   </Transition>;
 }

@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Profile from './profile';
+import CharacterControls from './characterControls';
 import Textbox from './textbox';
+
 import mansion from '../assets/scenes/mansion_entrance.webp';
 
 
@@ -64,7 +65,8 @@ export default function Scene() {
     <Panorama />
     <Divider />
     <Location>At The Manor Entrance</Location>
+
     <Textbox />
-    <Profile />
+    <CharacterControls />
   </Background>;
 }
