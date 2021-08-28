@@ -9,11 +9,11 @@ import {
 } from '../state/dialogues';
 
 
-const Message = styled.p`
+const Paragraph = styled.p`
   color: white;
   font-size: 1.2em;
   opacity: 0.8;
-  padding: 0.8em;
+  padding: 0.2em 0.8em;
   margin: 0.3em;
   line-height: 1.4em;
 `;
@@ -56,7 +56,7 @@ const Choice = styled.button`
   padding: 0.8em;
   opacity: 0.2;
   font-size: 1.2em;
-  margin: 0.4em 1.8em;
+  margin: 0.6em 1.8em;
   transition: opacity 0.2s linear;
   text-align: center;
   &:hover {
@@ -78,7 +78,11 @@ export default function Textbox() {
   return <Transition in={animate} timeout={1000}>
     { (state: string) =>
       <Wrapper state={state}>
-        <Message>{ getCurrentMessage() }</Message>
+        {
+          getCurrentMessage().map((paragraph, index) => 
+            <Paragraph key={index}>{ paragraph }</Paragraph>
+          )
+        }
         { 
           getCurrentChoices().map((choice, index) => 
             <Choice

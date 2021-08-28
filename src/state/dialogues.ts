@@ -4,10 +4,10 @@ import {
 } from '../content/dialogues';
 
 
-let currentDialogueName = "The Inheritance";
+let currentDialogueName = "Shivering Alone";
 
 
-export function getCurrentMessage(): string {
+export function getCurrentMessage(): string[] {
   const dialogue = dialogues.get(currentDialogueName);
   if (!dialogue)
     throw "Somehow, the game state has progressed to an invalid dialogue!";
