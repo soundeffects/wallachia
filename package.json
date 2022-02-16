@@ -19,7 +19,7 @@
     "@types/react-transition-group": "^4.4.2",
     "@types/snowpack-env": "^2.3.3",
     "@types/styled-components": "^5.1.12",
-    "jest": "^27.0.6",
+    "jest": "^27.2.0",
     "react-transition-group": "^4.4.2",
     "snowpack": "^3.3.7",
     "styled-components": "^5.3.0",

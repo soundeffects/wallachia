@@ -6,7 +6,7 @@ import WalletIcon from './icons/wallet';
 import DoorIcon from './icons/door';
 import MoonIcon from './icons/moon';
 
-import antanasia from '../assets/characters/antanasia.webp';
+import antanasia from '../assets/characters/antanasia_cautious.webp';
 
 
 const Wrapper = styled.section`
@@ -22,8 +22,7 @@ const Wrapper = styled.section`
 `;
 
 const Picture = styled.img`
-  height: 14em;
-  width: 13em;
+  width: 14em;
   border-radius: 0.4em;
 `;
 
